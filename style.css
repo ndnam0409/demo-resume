@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: auto;
+    background: linear-gradient(to right, #4daf54, #3d8880);
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.resume{
+    width: 55%;
+    height: 100%;
+    background: #272d40;
+    text-align: center;
+    padding: 20px;
+    margin: 120px;
+    color: white;
+    border-radius: 20px;
+}
+
+.resume-header{
+    display: flex;
+}
+
+.profile-img{
+    width: 200px;
+    height: 150px;
+    border-radius: 50%;
+    border: solid 2px white;
+    margin-right: 30px;
+}
+
+.header-text {
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start; 
+}
+
+.header-text h1,h3, p{
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.resume-body{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row-gap: 20px;
+    grid-column-gap: 20px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.fa-solid, .fa-brands{
+    margin-right: 15px;  
+}
+
+h2{
+    display: inline-block;
+    padding: 1px 10px;
+    background-color: lightsalmon;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+
+.skill {
+    margin-bottom: 15px;
+    display: flex;
+}
+
+.skill p {
+    font-size: 16px;
+    margin: 0;
+}
+
+.stars {
+    display: inline-block;
+    padding-left: 15px;
+}
+
+.fa-star {
+    color: #ccc; /* Color for unchecked stars */
+}
+
+.fa-star-half-alt {
+    color: #f4d03f; /* Color for half checked star */
+}
+
+.checked {
+    color: #f4d03f; /* Color for checked stars */
+}
+
+.languages, .certificates, .interest{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+ 
+.contact-info p{
+    padding-left: 80px;
+}
+
+.education h3{
+    padding-left: 80px;
+}
+
+.education p{
+    padding-left: 80px;
+}
+
+
+.skills .skill{
+    padding-left: 80px;
+}
+
+.resume-footer{
+    margin-top: 50px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: lightsalmon;
+}
+
+
+
+
+
+
+
+
